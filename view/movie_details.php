@@ -4,7 +4,6 @@
     <title>Detalles de la Película</title>
 </head>
 <body>
-<?php require 'view/header.php'; ?>
     <?php if ($movie): ?>
         <h1><?= $movie['nombre'] ?></h1>
         <img src="<?= $movie['portada'] ?>" alt="<?= $movie['nombre'] ?> Portada">

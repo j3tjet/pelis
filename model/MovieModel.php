@@ -18,5 +18,14 @@ class MovieModel {
         $stmt->execute();
         return $stmt->fetch();
     }
+
+    public function searchMovies($term) {
+        $query = "SELECT * FROM películas WHERE nombre LIKE :term";
+        $stmt = $this->db->prepare($query);
+        $stmt->bindValue(':term', "%" . $term . "%", PDO::PARAM_STR);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
 }
+
 ?>

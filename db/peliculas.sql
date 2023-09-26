@@ -41,12 +41,13 @@ CREATE TABLE `películas` (
 -- Volcado de datos para la tabla `películas`
 --
 
-INSERT INTO `películas` (`id`, `nombre`, `portada`, `género`, `sinopsis`, `director`, `actores`) VALUES
+INSERT INTO `peliculas` (`id`, `nombre`, `portada`, `genero`, `sinopsis`, `director`, `actores`) VALUES
 (1, 'El padrino', 'https://es.web.img3.acsta.net/c_310_420/pictures/18/06/12/12/12/0117051.jpg', 'Crimen', 'La historia de la familia Corleone, una de las cinco familias mafiosas que controlan la ciudad de Nueva York.', 'Francis Ford Coppola', 'Marlon Brando, Al Pacino, James Caan, Robert Duvall'),
-(2, 'El señor de los anillos: La comunidad del anillo', 'https://es.wikipedia.org/wiki/El_Se%C3%B1or_de_los_Anillos:_La_comunidad_del_anillo#/media/File:The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring_poster.jpg', 'Fantasía', 'La historia de Frodo Bolsón, un hobbit que debe destruir el Anillo Único, un poderoso artefacto maligno.', 'Peter Jackson', 'Elijah Wood, Ian McKellen, Viggo Mortensen, Orlando Bloom'),
-(3, 'Pulp Fiction', 'https://es.wikipedia.org/wiki/Pulp_Fiction#/media/File:Pulp_Fiction_poster.jpg', 'Crimen', 'La historia de dos asesinos a sueldo, un boxeador, una banda de ladrones y una esposa adicta a la heroína.', 'Quentin Tarantino', 'John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis'),
-(4, 'Titanic', 'https://es.wikipedia.org/wiki/Titanic#/media/File:Titanic_(1997)_poster.jpg', 'Romance', 'La historia de Jack y Rose, dos jóvenes de diferentes clases sociales que se enamoran a bordo del Titanic, un trasatlántico que se hunde en su viaje inaugural.', 'James Cameron', 'Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates'),
-(5, 'Star Wars: Episodio IV - Una nueva esperanza', 'https://es.wikipedia.org/wiki/Star_Wars:_Episodio_IV_-_Una_nueva_esperanza#/media/File:Star_Wars_Episode_IV_-_A_New_Hope_poster.jpg', 'Fantasía', 'La historia de Luke Skywalker, un joven que se une a la Rebelión para luchar contra el Imperio Galáctico.', 'George Lucas', 'Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness');
+(2, 'El señor de los anillos: La comunidad del anillo', 'https://es.web.img2.acsta.net/c_310_420/medias/nmedia/18/89/67/45/20061512.jpg', 'Fantasía', 'La historia de Frodo Bolsón, un hobbit que debe destruir el Anillo Único, un poderoso artefacto maligno.', 'Peter Jackson', 'Elijah Wood, Ian McKellen, Viggo Mortensen, Orlando Bloom'),
+(3, 'Pulp Fiction', 'https://es.web.img3.acsta.net/c_310_420/pictures/17/06/12/10/21/182251.jpg', 'Crimen', 'La historia de dos asesinos a sueldo, un boxeador, una banda de ladrones y una esposa adicta a la heroína.', 'Quentin Tarantino', 'John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis'),
+(4, 'Titanic', 'https://es.web.img3.acsta.net/c_310_420/medias/nmedia/18/86/91/41/19870073.jpg', 'Romance', 'La historia de Jack y Rose, dos jóvenes de diferentes clases sociales que se enamoran a bordo del Titanic, un trasatlántico que se hunde en su viaje inaugural.', 'James Cameron', 'Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates'),
+(5, 'Star Wars: Episodio IV - Una nueva esperanza', 'https://es.web.img3.acsta.net/c_310_420/medias/nmedia/18/71/18/12/20061511.jpg', 'Fantasía', 'La historia de Luke Skywalker, un joven que se une a la Rebelión para luchar contra el Imperio Galáctico.', 'George Lucas', 'Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness');
+
 
 --
 -- Índices para tablas volcadas

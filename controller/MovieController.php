@@ -10,6 +10,12 @@ class MovieController {
 
     public function listMovies() {
         $movies = $this->model->getAllMovies();
+
+        // Si el usuario envió un término de búsqueda, realiza la búsqueda.
+        if (isset($_GET['search'])) {
+            $movies = $this->model->searchMovies($_GET['search']);
+        }
+
         require('view/movie_list.php');
     }
 
@@ -18,4 +24,5 @@ class MovieController {
         require('view/movie_details.php');
     }
 }
+
 ?>

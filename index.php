@@ -1,6 +1,5 @@
 <?php
 require_once('controller/MovieController.php');
-require_once('controller/AboutController.php');
 
 define('URL', 'http://localhost/pelisGpt/');
 // Conexión a la base de datos (reemplaza con tus propios datos)
@@ -20,7 +19,6 @@ try {
 $action = isset($_GET['action']) ? $_GET['action'] : 'list';
 
 $movieController = new MovieController($db);
-$aboutController = new AboutController();
 
 if ($action === 'list') {
     $movieController->listMovies();
@@ -31,9 +29,7 @@ if ($action === 'list') {
     } else {
         // Manejar error aquí
     }
-} elseif ($action === 'nosotros') {
-    $aboutController->index();
-} else {
+} else{
     // Manejar error aquí
 }
-?>
+?>;
