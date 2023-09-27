@@ -27,11 +27,11 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `películas`
 --
 
-CREATE TABLE `películas` (
+CREATE TABLE `peliculas` (
   `id` int(11) NOT NULL,
   `nombre` varchar(255) NOT NULL,
   `portada` varchar(255) NOT NULL,
-  `género` varchar(255) NOT NULL,
+  `genero` varchar(255) NOT NULL,
   `sinopsis` varchar(255) NOT NULL,
   `director` varchar(255) NOT NULL,
   `actores` varchar(255) NOT NULL
@@ -56,7 +56,7 @@ INSERT INTO `peliculas` (`id`, `nombre`, `portada`, `genero`, `sinopsis`, `direc
 --
 -- Indices de la tabla `películas`
 --
-ALTER TABLE `películas`
+ALTER TABLE `peliculas`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -66,7 +66,7 @@ ALTER TABLE `películas`
 --
 -- AUTO_INCREMENT de la tabla `películas`
 --
-ALTER TABLE `películas`
+ALTER TABLE `peliculas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
